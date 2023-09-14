@@ -645,7 +645,9 @@ img {
   height: 40px;
   padding-left: 16px;
 
-  font-size: 16px;
+  color: var(--white);
+
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 
@@ -656,7 +658,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .footer-input::placeholder {
-  color: var(--white, #fff);
+  color: var(--white);
 }
 .footer-sub-button {
   display: inline-flex;
@@ -665,7 +667,7 @@ img {
   justify-content: center;
   gap: 16px;
 
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 
   color: var(--white);
@@ -803,12 +805,17 @@ img {
   width: 100%;
   min-height: 40px;
 
+  padding-left: 38px;
+
   border-radius: 4px;
   border: 1px solid var(--form-borders);
   background-color: transparent;
   outline: transparent;
 
-  padding-left: 38px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 
   transition: border-color var(--trans);
 }
@@ -830,7 +837,9 @@ img {
   margin-bottom: 16px;
 }
 .form-textarea {
-  min-height: 120px;
+  color: var(--form-borders);
+
+  height: 120px;
 
   padding: 8px 16px;
 
@@ -872,6 +881,9 @@ img {
 }
 .checkbox {
   position: absolute;
+
+  width: 16px;
+  height: 16px;
   top: 0;
   left: 0;
 
@@ -882,8 +894,6 @@ img {
   border: 1px solid var(--form-borders);
   background-color: transparent;
   border-radius: 2px;
-  width: 16px;
-  height: 16px;
 
   fill: transparent;
 
