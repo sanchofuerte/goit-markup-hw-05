@@ -905,7 +905,7 @@ input[type='checkbox']:checked + .label-policy .checkbox {
   border: none;
 }
 input[type='checkbox']:checked + .label-policy .checkbox .checkbox-icon {
-  fill: var(--white);
+  fill: var(--light);
 }
 .checkbox-link {
   color: var(--primary-brand);
