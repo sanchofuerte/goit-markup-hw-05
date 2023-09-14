@@ -882,14 +882,14 @@ img {
 .checkbox {
   position: absolute;
 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   width: 16px;
   height: 16px;
   top: 0;
   left: 0;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 
   border: 1px solid var(--form-borders);
   background-color: transparent;
@@ -897,7 +897,7 @@ img {
 
   fill: transparent;
 
-  transition: background-color var(--trans), border var(--trans);
+  transition: background-color var(--trans), border var(--trans), fill var(--trans);
 }
 
 input[type='checkbox']:checked + .label-policy .checkbox {
