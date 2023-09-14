@@ -210,7 +210,6 @@ img {
   background-position: center;
 
   align-items: center;
-  margin-bottom: 120px;
   padding: 188px 0;
 }
 .studio-container {
@@ -224,6 +223,7 @@ img {
 .studio-head-one {
   margin: 0 auto;
   max-width: 496px;
+  text-align: center;
 }
 /* buttons */
 .buttonstyle {
@@ -267,7 +267,6 @@ img {
 /* who we are - Section 2 */
 
 .who-we-are {
-  margin-bottom: 120px;
   padding: 120px 0;
 }
 .who-we-are_list {
