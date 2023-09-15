@@ -861,6 +861,8 @@ img {
 }
 
 .label-policy {
+  display: block;
+
   color: var(--light-slate);
 
   font-size: 12px;
