@@ -857,20 +857,10 @@ img {
   letter-spacing: 0.04em;
 }
 .privacy {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
   margin-bottom: 24px;
-  user-select: none;
-}
-.checkbox-input {
 }
 
 .label-policy {
-  display: block;
-
-  padding-left: 22px;
-
   color: var(--light-slate);
 
   font-size: 12px;
@@ -879,9 +869,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.checkbox {
-  position: absolute;
 
+.checkbox {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -894,8 +883,9 @@ img {
   border: 1px solid var(--form-borders);
   background-color: transparent;
   border-radius: 2px;
-
   fill: transparent;
+
+  margin-right: 8px;
 
   transition: background-color var(--trans), border var(--trans), fill var(--trans);
 }
@@ -903,12 +893,8 @@ img {
 input[type='checkbox']:checked + .label-policy .checkbox {
   background-color: var(--pressed-state);
   border: none;
-}
-input[type='checkbox']:checked + .label-policy .checkbox .checkbox-icon {
   fill: var(--light);
 }
 .checkbox-link {
   color: var(--primary-brand);
-}
-.modal-send-btn {
 }
