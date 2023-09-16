@@ -221,14 +221,12 @@ img {
   margin: 0 auto;
 }
 .studio-head-one {
-  margin: 0 auto;
+  margin: 0 auto 48px;
   max-width: 496px;
   text-align: center;
 }
-/* buttons */
-.buttonstyle {
-}
 
+/* buttons */
 .studio-button {
   display: block;
   padding: 16px 32px;
@@ -638,8 +636,6 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.footer-form-label {
-}
 .footer-input {
   width: 264px;
   height: 40px;
@@ -665,7 +661,6 @@ img {
 
   align-items: center;
   justify-content: center;
-  gap: 16px;
 
   min-width: 165px;
   height: 40px;
@@ -828,7 +823,6 @@ img {
 }
 .form-input:focus {
   border: 1px solid var(--primary-brand);
-  padding-left: 38px;
 }
 .form-input:focus ~ .user-icon {
   fill: var(--primary-brand);
